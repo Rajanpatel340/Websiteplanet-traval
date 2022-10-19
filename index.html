@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="respo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,   600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://use.fontawesome.com/1da98b7aaa.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+      <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Book An Adventure Now</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form> 
+          <div class="form-group"> 
+            <label>Email</label> 
+            <input type="text" class="form-control" name=""> 
+            <label>Mobile Number</label> 
+            <input type="text" class="form-control" name="">
+          </div>
+           </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+            <!-- modal -->
+
+        <!-- header start -->
+                 <!--  menu and logo -->
+        <header>
+          <div class="container-fluid menu fixed-top">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <nav class="navbar navbar-expand-lg navbar-light">
+                    <a href="#" class="navbar-brand"><img src="img/logo.png" width="150px">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-target="menu">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="menu">
+                      <ul class="navbar nav">
+                        <li class="nav-item">
+                          <a href="#home" class="nav-link">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#about" class="nav-link">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#fe" class="nav-link">SERIVCES</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#f" class="nav-link">CONTACT US</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#" class=" nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">BOOK NOW</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>  
+          <!-- menu end hare -->
+    <div>
+          <!-- Slider start -->
+      <div class="slider" id="home">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" style="background: url(img/p-2.jpg) center; background-size: cover;">
+              <div class="slid-in">
+                  <h6>Discover The Colorful Worlds</h6>
+                  <h1 class="h1 text-white">New Adventure</h1>
+                  <p class="mt-2">Is there something you want to do that freaks you out?<br>
+                     Go for it! Sometimes, the scariest ideas turn into the best travel memories.</p>
+                  <button class="btn btn-lg btn-outline-light mt-4 text-primary">Discover Now</button>
+                </div>
+            </div>
+            <div class="carousel-item"  style="background: url(img/p-5.jpg) center; background-size: cover;">
+              <div class="slid-in">
+                <h6>Discover The Colorful Worlds</h6>
+                <h1 class="h1 text-white">Discover the world</h1>
+                <p class="mt-2">Is there something you want to do that freaks you out?<br>
+                   Go for it! Sometimes, the scariest ideas turn into the best travel memories.</p>
+                <button class="btn btn-lg btn-outline-light mt-4 text-primary">Discover Now</button>
+              </div>
+            </div>
+            <div class="carousel-item"  style="background: url(img/g-8.jpg) center; background-size: cover;">
+              <div class="slid-in">
+                <h6>Discover The Colorful Worlds</h6>
+                <h1 class="h1 text-white">New trip</h1>
+                <p class="mt-2">Is there something you want to do that freaks you out?<br>
+                   Go for it! Sometimes, the scariest ideas turn into the best travel memories.</p>
+                <button class="btn btn-lg btn-outline-light mt-4 text-primary">Discover Now</button>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+           <!-- slider end -->
+    </div>
+          <!-- Header end  -->
+
+          <!-- ----------------- -->
+
+          <!-- Start about section -->
+      <section class="about-section" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="text-center">Why Choose Us Your Fitness Builder</h1>
+              <p class="text-center">Who are in extremely love with eco friendly system.</p>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-lg-6">
+              <img src="img/g-4.jpg" class="img-fluid w-80 h-80">
+            </div>
+            <div class="col-lg-6">
+              <div class="cont">
+                  <h3>
+                    We Relize That <br/>
+                    There Are Reduced<br/>
+                    Wastege Stand Out
+                  </h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi tenetur sed possimus at omnis ducimus quidem fugiat tempora deserunt voluptatibus, quam esse modi ex nobis inventore explicabo, hic mollitia temporibus?
+                  </p>
+                  <br>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta omnis doloribus tempore et suscipit possimus vel quisquam modi aut optio repellendus tempora incidunt eveniet excepturi, eos exercitationem debitis cupiditate qui?
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur, error quaerat! Illo, tempore? Voluptates, eaque quisquam, repellat, molestias quam cum ut corrupti maiores nemo in maxime quod porro nulla fugit!
+                  </p>
+                  <br>
+
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi tenetur sed possimus at omnis ducimus quidem fugiat tempora deserunt voluptatibus, quam esse modi ex.
+                  </p>
+                  
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi tenetur sed possimus at omnis ducimus quidem fugiat tempora deserunt voluptatibus, quam esse modi ex nobis inventore explicabo, hic mollitia temporibus?
+                  </p>
+                  <br>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi tenetur sed possimus at omnis ducimus quidem fugiat tempora deserunt voluptatibus, quam esse modi ex nobis inventore explicabo, hic mollitia temporibus?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+                     <!-- end about section -->
+
+                     <!-- ------------ -->
+
+                     <!-- start feature_section -->
+      <section class="m-3" id="fe">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="text-center">Some Feature That Made Us Unique</h1>
+              <p class="text-center">Who are the extremely love with eco friendly system.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="container fe_section">
+        <div class="row">
+            <div class="col-lg-4">
+              <div class="fe-section-item">
+                <h5>
+                  Expert Technicians
+                </h5>
+                <p>
+                  Internet connects people from different places speaking various languages. We can share our ideas and view points with whole world. 
+                </p>
+              </div>
+            </div> 
+            <div class="col-lg-4">
+              <div class="fe-section-item">
+                <h5>
+                  Proffessional Service
+                </h5>
+                <p>
+                  Internet connects people from different places speaking various languages. We can share our ideas and view points with whole world. 
+                </p>
+              </div>
+            </div> 
+            <div class="col-lg-4">
+              <div class="fe-section-item">
+                <h5>
+                  Greate Support
+                </h5>
+                <p>
+                  Internet connects people from different places speaking various languages. We can share our ideas and view points with whole world. 
+                </p>
+              </div>
+            </div> 
+            <div class="col-lg-4">
+              <div class="fe-section-item">
+                <h5>
+                  Technical Skill
+                </h5>
+                <p>
+                  Internet connects people from different places speaking various languages. We can share our ideas and view points with whole world. 
+                </p>
+              </div>
+            </div> 
+            <div class="col-lg-4">
+              <div class="fe-section-item">
+                <h5>
+                  Highly Recomended
+                </h5>
+                <p>
+                  Internet connects people from different places speaking various languages. We can share our ideas and view points with whole world. 
+                </p>
+              </div>
+            </div> 
+            <div class="col-lg-4">
+              <div class="fe-section-item">
+                <h5>
+                  Positive Review
+                </h5>
+                <p>
+                  Internet connects people from different places speaking various languages. We can share our ideas and view points with whole world. 
+                </p>
+              </div>
+            </div> 
+        </div>
+      </div>
+                  <!-- end feature_section -->
+
+                  <!-- form start -->
+      <section class=" m-3" id="f">
+                    <div class="container">
+                            <div class="row">
+                              <div class="col-12">
+                                <h1 class="text-center">If you need, Just drop us a line</h1>
+                                <p class="text-center">Who are the extremely love with eco friendly system.</p>
+                              </div>
+                            <form>
+                                <div class="row form-outer mt-5">
+                                  <div class="col-lg-6 form-group">
+                                    <input type="text" placeholder="Enter Your Name" name="" class="form-control"/>
+
+                                    <input type="email" placeholder="Enter Your Email" name="" class="form-control"/>
+
+                                    <input type="text" placeholder="Subject" name="" class="form-control"/>
+                                  </div>
+                                  <div class="col-lg-6">
+                                    <textarea name="" id=""  placeholder="write your Massages " class="form-control"></textarea>
+                                    <button class="btn btn-primary">Send Massages <i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+                                  </div>
+                                </div>
+                              </form>
+                  </div>
+      </section>
+                  <!-- form end -->
+                  <!-- ----------- -->
+                  <!-- start footer -->
+      <footer>
+        <div class="container">
+          <div>
+            <div class="row">
+              <div class="col-lg-5">
+                <h5 class="text-white">About Us</h5>
+                <p class="text-white-50">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, iste enim debitis quisquam beatae facilis nobis iure officiis quos repellat nemo facere sint?</br> Assumenda, porro exercitationem qui quaerat provident at.
+                </p>
+              </div>
+              <div class="col-lg-5">
+                <h5 class="text-white">Newsletter</h5>
+                <p class="text-white-50">Stay Update with our Latest</p>
+                <form class="d-flex">
+                  <input type="text" class="form-control" name="" placeholder="Enter your email"/>
+                  <button class="btn btn-primary"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+                </form>
+              </div>
+              <div class="col-lg-2">
+                <h5 class="text-white mb-3">Follow Us</h5>
+                <div class="icon">
+                  <i class="fa fa-facebook-square" aria-hidden="true" id="fb"></i>
+                  <i class="fa fa-instagram" aria-hidden="true" id="ins"></i>
+                  <i class="fa fa-twitter-square" aria-hidden="true" id="tw"></i>
+                  <i class="fa fa-linkedin-square" aria-hidden="true" id="link"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+                   <!-- end footer -->
+      <div class="container-fluid bg-black">
+        <div class="row">
+          <div class="col-12">
+            <p class="text-white-50 text-center"> <i class="fa fa-copyright" aria-hidden="true"></i>Copyright Resrve By Rajan</p>
+          </div>
+        </div>
+      </div>
+
+   
+    
+
+
+
+
+  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  
+</html>

@@ -1,0 +1,21 @@
+@media only screen and (min-width:0px) and (max-width:567px){
+    #carouselExampleIndicators .carousel-item h6{
+        padding-top: 80px;
+    }
+    #carouselExampleIndicators .carousel-item h1{
+        font-size: 40px;
+        text-transform: uppercase;
+
+    }
+    .slid-in{
+        width: 100%;
+        height: 450px;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    #carouselExampleIndicators .carousel-item p{
+        font-size: 15px;
+    }
+    
+   
+}
+    
